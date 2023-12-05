@@ -21,7 +21,7 @@ SoqlLoopExample.createRecords(1000,50000);
 you can run the following method , arguments is always the number of records to process in the query : 
 
 // will show how quickly apex is consuming memory when executing soql query
-SoqlLoopExample.displayChunckSizeOf200Records(300);
+```SoqlLoopExample.displayChunckSizeOf200Records(300);```
 
 // will show why this type of algorythm should never be used if possible. works while above an average 400 records
 SoqlLoopExample.worseMethod(300);
