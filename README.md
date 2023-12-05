@@ -27,7 +27,7 @@ you can run the following method , arguments is always the number of records to 
 ```SoqlLoopExample.worseMethod(300);```
 
 // will show the limit of this algorythm (still the one to prefer 99% of the time) . works while above an average 1400 records
-```SoqlLoopExample.worseMethod(300);```
+```SoqlLoopExample.betterMethod(300);```
 
 // Show the only use case where the "for(List<Case> subCases : [SELECT Id,veryLongText__c from Case limit :nbRecords]){" is really useful. You can put 5000 == all records, the method will run                                       
 ```SoqlLoopExample.correctMethod(300);```
