@@ -3,7 +3,7 @@
 The test should be run on a new sandbox/scratchorg as it will consume a lot of the storage available :)
 
 
-Step 1: 
+## Step 1: 
 
 Create a field for the object Case :
 type richtext
@@ -11,12 +11,12 @@ length 130 000
 name : VeryLongText
 
 
-Step 2 :
+## Step 2 :
 Launch the command line below 3 times (can not be done at once , cpu limit issue) :
 // create 1000 case records and store a 50000 caracters text in the VeryLongText__c field
 SoqlLoopExample.createRecords(1000,50000);
 
-Testing and using the demo :
+## Testing and using the demo :
 
 you can run the following method , arguments is always the number of records to process in the query : 
 
